@@ -1,6 +1,6 @@
 <template> 
     <section>
-        影院热映
+        免费在线观影
     </section>
 </template>
 <script>

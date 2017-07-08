@@ -1,6 +1,6 @@
 <template> 
     <section>
-        影院热映
+        最受关注图书｜非虚构类
     </section>
 </template>
 <script>

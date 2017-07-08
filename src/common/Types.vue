@@ -1,6 +1,6 @@
 <template> 
     <section>
-        影院热映
+        分类浏览
     </section>
 </template>
 <script>

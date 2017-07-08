@@ -1,6 +1,6 @@
 <template> 
     <section>
-        影院热映
+        新片速递
     </section>
 </template>
 <script>

@@ -1,6 +1,6 @@
 <template> 
     <section>
-        影院热映
+        发现好电影
     </section>
 </template>
 <script>
