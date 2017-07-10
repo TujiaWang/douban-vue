@@ -1,7 +1,7 @@
 <template>
     <div>
-        <div class="feed-section" v-for="day in recommend_feed">
-            <h2 class="date" v-if="day>0">{{day.date}}</h2>
+        <div class="feed-section" v-for="(day,index) in recommend_feed">
+            <h2 class="date" v-if="index>0">{{day.date}}</h2>
             <a href="" class="feed-item" v-for="rec in day.recommend_feeds">
                 <div class="feed-content">
                     <div class="cover" :style="{backgroundImage: 'url(' + rec.target.cover_url + ')'}" v-if="showCover(rec.target.photos_count,rec.target.cover_url)"><div style="padding-top: 100%;"></div></div>
@@ -59,7 +59,7 @@ export default {
                 if(sw==true){
                     sw = false; 
                     _this.recommend_feed.push(data77);
-                    // console.log(_this.recommend_feed);
+                    console.log(_this.recommend_feed);
                     // sw = true; 
                 }
             }

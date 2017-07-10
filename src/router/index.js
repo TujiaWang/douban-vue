@@ -5,6 +5,9 @@ import Movie from '@/components/Movie/Movie'
 import Book from '@/components/Book/Book'
 import Status from '@/components/Status/Status'
 import Group from '@/components/Group/Group'
+import NowIntheater from '@/components/Movie/MovieShowingList'
+import Online from '@/components/Movie/MovieFreeList'
+import Latest from '@/components/Movie/MovieLatestList'
 
 Vue.use(Router)
 
@@ -30,6 +33,18 @@ export default new Router({
     {
       path: '/group',
       component: Group
+    },
+    {
+      path: '/nowintheater',
+      component: NowIntheater
+    },
+    {
+      path:'/online',
+      component:Online
+    },
+    {
+      path:'/latest',
+      component:Latest
     }
   ]
 })
