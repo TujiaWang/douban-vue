@@ -28,11 +28,11 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-      '/movie':{
-        target: 'http://api.douban.com/v2/movie',
+      '/api':{
+        target: 'http://api.douban.com/v2',
         changeOrigin: true,
         pathRewrite: {
-          '^/movie': ''
+          '^/api': '/'
         }
       }
     },

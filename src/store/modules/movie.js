@@ -14,7 +14,7 @@ const getters = {
 
 const actions = {
     loadTheaters(context){
-        axios.get('/movie/in_theaters').then(function(res){
+        axios.get('/api/movie/in_theaters').then(function(res){
             context.commit('setTheaters',res.data.subjects);
             // data = res;
             // console.log(res.data.subjects);
