@@ -21,4 +21,4 @@ npm run build --report
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ## 部分截图如下
-![](1.jpg) ![](2.jpg) ![](3.jpg) ![](4.jpg)
+![](1.jpg)![](2.jpg)![](3.jpg)![](4.jpg)
